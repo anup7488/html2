@@ -1,1 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Functions</h1>
+<p>Call a function which performs a calculation and returns the result:</p>
+<p id="demo"></p>
+<script>
+function myFunction(p1, p2) {
+  return p1 * p2;
+}
+let result = myFunction(4, 3);
+document.getElementById("demo").innerHTML = result;
+</script>
+<h2>The Arrow Function</h2>
+<p id="demo1"></p>
+
+<script>
+let hello = "";
+
+hello = () => {
+  return "Hello World!";
+}
+
+document.getElementById("demo1").innerHTML = hello();
+</script>
+
+</body>
+</html>
 
