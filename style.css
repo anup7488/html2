@@ -1,0 +1,47 @@
+.outer{
+    border: 1px ;
+    height: 850px;
+    width: 700px;
+    margin: 0px auto;
+}
+.left{
+    width: 35%;
+    height: 100%;
+    background-color: rgb(211, 210, 210);
+    float: left;
+}
+.left img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    float: left;
+}
+p,h4{
+    margin: 15px;
+}
+.right{
+    height: 100%;
+    width: 65%;
+    float: left;
+}
+.name{
+    height: 120px;
+    text-align: center;
+    width: 100%;
+    float: left;
+    background-color: antiquewhite;
+
+}
+.objective{
+    height: 35px;
+    width:96%;
+    margin:15px;
+    background-color: rgb(211, 210, 210) ;
+    float: left;
+}
+.objective h3{
+    padding: 3px;
+    margin:5px;
+}
+
